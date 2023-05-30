@@ -7,7 +7,7 @@ function BridgePage() {
     <div>
     <p>Welcome!</p>
     
-    <Link to="/register">Test</Link>
+    <Link to="/RegisterPage">Test</Link>
     </div>
   );
 }
