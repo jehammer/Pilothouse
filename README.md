@@ -1,2 +1,3 @@
 # Pilothouse
-A ReactTS website for spacetraders.io
+
+An Electron React TypeScript application for spacetraders.io
