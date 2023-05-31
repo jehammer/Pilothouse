@@ -1,4 +1,4 @@
-class STService {
+class stservice {
 
     async signUp(callsign: String): Promise<any> {
         const options = {
@@ -23,4 +23,4 @@ class STService {
     }
 }
 
-export default STService;
+export default stservice;
