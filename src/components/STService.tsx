@@ -21,6 +21,10 @@ class stservice {
     async fetchData(): Promise<any> {
         return fetch('')
     }
+
+    test(value: String): void {
+      console.log(value);
+    }
 }
 
 export default stservice;
