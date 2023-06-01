@@ -18,7 +18,8 @@ function LoginPage() {
 
   return (
     <div>
-      <p>Welcome to Login!</p>
+      <h3>Greetings Commander</h3>
+      <h4>Enter your ID to access the system</h4>
       <input type="text" value={data} onChange={(e) => setData(e.target.value)} />
       <button onClick={saveData}>Save Data</button>
       <button onClick={loadData}>Load Data</button>

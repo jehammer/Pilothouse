@@ -8,9 +8,9 @@ export default function Nav() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<BridgePage />} />
+        <Route path="/BridgePage" element={<BridgePage />} />
         <Route path="/RegisterPage" element={<RegisterPage />} />
-        <Route path="/LoginPage" element={<LoginPage/>} />
+        <Route path="/" element={<LoginPage/>} />
       </Routes>
     </Router>
   );
