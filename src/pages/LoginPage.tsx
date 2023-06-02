@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../css/login.css';
 
 function LoginPage() {
   const [data, setData] = useState('');
@@ -17,7 +18,7 @@ function LoginPage() {
   };
 
   return (
-    <div>
+    <div className='loginPage'>
       <h3>Greetings Commander</h3>
       <h4>Enter your ID to access the system</h4>
       <input type="text" value={data} onChange={(e) => setData(e.target.value)} />
